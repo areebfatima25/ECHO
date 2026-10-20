@@ -6,45 +6,67 @@ ________________________________________
 •	Final Verdict: Dr. Zara Mahmud did NOT achieve faster-than-light (FTL) quantum communication.
 
 •	Summary of Investigation: Dr. Mahmud successfully constructed genuine quantum superposition, entangled Bell pairs, and a functioning 3-qubit quantum teleportation protocol. However, she fundamentally misinterpreted non-local quantum state correlations and uncorrected teleportation channels as superluminal information transfer. No usable data or message was ever transmitted faster than the speed of light.
+
 •	Confidence Rating: 95% (High Confidence)12. Experimental execution across all machine modules confirms that while quantum states display instantaneous spatial correlation, information retrieval strictly obeys the No-Communication Theorem and depends entirely on sub-light classical feed-forward channels.
 ________________________________________
 2. Evidence Board
 The evidence collected during the investigation is categorized according to official case file protocol without using markdown tables:
 FACTS (Directly Observed Measurements & Decoded Outputs)
+
 •	Fact 1: The 96-bit corrupted payload decodes directly to the ASCII word ECHO via 3-bit majority voting.
+
 •	Fact 2: In Module 06, receiver state recovery with classical corrections achieves 100% fidelity, but drops to a 50/50 random mixture (0 and 1) when classical bits are omitted.
+
 •	Fact 3: Entangled Bell pairs maintain correlated outcomes (00 and 11) across both standard Z-basis and rotated Hadamard X-basis measurements.
-•	Fact 4: Gate reversibility in Module 01 confirms that applying two consecutive Hadamard gates acts as the Identity operation ($H \cdot H = I$), deterministically restoring state $|0\rangle$10.
+
+•	Fact 4: Gate reversibility in Module 01 confirms that applying two consecutive Hadamard gates acts as the Identity operation ($H \cdot H = I$), deterministically restoring state.
+
 •	Fact 5: The preloaded seed circuit produces a biased outcome distribution.
+
 CLAIMS (Statements by Suspects & Machine Logs)
+
 •	Claim 1 (Dr. Zara Mahmud): Stated on the cover manual that entanglement carried a message faster than light ("They told me entanglement could never carry a message. I proved them wrong...").
+
 •	Claim 2 (Systems Engineer Sana Rao): Claimed she "only deleted a corrupted log" and maintained full system access.
+
 •	Claim 3 (Senior Physicist Prof. Imran Vance): Publicly asserted that "ECHO was never real" and labeled the experiment a fraud.
+
 •	Claim 4 (Lab AI ARIA): Logged that "No unauthorised command was issued" during the automated experiment schedule execution.
-INFERENCES (Logical Deductions & Physical Interpretations)
+
+INFERENCES (Logical Deductions & Physical Interpretations)\
+
 •	Inference 1: Dr. Mahmud observed instantaneous wave-function collapse between entangled qubits and mistook spatial quantum correlation for superluminal data transmission.
+
 •	Inference 2: System log deletions were executed by Sana Rao or under administrative credentials to cover up research discrepancies reported by graduate researcher Bilal Noor prior to the final experiment.
+
 OPEN QUESTIONS (Unresolved System Anomalies)
-•	Open Question 1: Who specifically configured the lab AI (ARIA) execution schedule and issued the command that initiated the final experiment  run?
+
+•	Open Question 1: Who specifically configured the lab AI (ARIA) execution schedule and issued the command that initiated the final experiment run?
+
 •	Open Question 2: Where is graduate researcher Bilal Noor's missing discrepancy report, and what exact hardware error did it detail?
 ________________________________________
 3. Experimental Protocols & Sequential Module Results (Modules 01–06)
 All Python code blocks below are written line-by-line without loops or dynamic control constructs to ensure clean execution and rendering across environments.
 Module 01 — The Gatekeeper (Mandatory)
+
 •	Objective: Execute single-qubit state control, demonstrate gate reversibility, and unlock the machine access vault.
+
 •	Quantum Logic: Applying Pauli-$X$ sets state $|1\rangle$, while Hadamard  creates equal superposition. Unitary gates are self-inverse, restoring state. 
+
 •	One-Line Proof: "Proves deterministic qubit state preparation and unitary gate reversibility across single and multi-qubit registers."
 ________________________________________
 Module 02 — The Honest Coin (Stretch)
 •	Objective: Evaluate the quantum random seed circuit to determine whether ECHO fired by chance or through systematic bias.
+
 •	Quantum Logic: Single-qubit rotation $R_y(\theta)$ rotates state vectors.
-•	Sequential Code Implementation:
-print("Seed Circuit Counts:", counts_seed)
+
 •	One-Line Proof: "Demonstrates that the quantum seed was artificially biased toward 0 with 66.7% probability, proving the experiment was triggered by intentional parameter configuration rather than fair chance."
 ________________________________________
 Module 03 — The Two Observers (Mandatory)
 •	Objective: Distinguish genuine quantum entanglement from pre-shared classical variables.
+
 •	Quantum Logic: In the standard Z-basis, both an entangled Bell pair and a pre-shared classical coin flip yield 100% agreement . Rotating detectors to the Hadamard X-basis maps a classical state to a 50% mismatch distribution ($01$ and $10$)1116. For quantum state , preserving 100% correlation 
+
 •	One-Line Proof: "Proves measurement correlations stem from genuine quantum entanglement rather than pre-shared classical variables, while confirming uncoordinated local measurements yield zero signal transfer."
 ________________________________________
 Module 04 — The Erased Measurement (Stretch)
